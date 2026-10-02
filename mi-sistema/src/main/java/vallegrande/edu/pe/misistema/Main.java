@@ -12,8 +12,9 @@ public class Main extends Application {
     public void start(Stage stage) {
         MainView view = new MainView();
         new MainController(view);
+
         Scene scene = new Scene(view, 900, 600);
-        stage.setTitle("MI SISTEMA");
+        stage.setTitle("MI SISTEMA - REGISTRO DE CONTACTOS");
         stage.setScene(scene);
         stage.show();
     }
